@@ -9,13 +9,11 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 public class Cs5200Spring2018SharmaApplication extends SpringBootServletInitializer {
 
 	@Override
-
 	protected SpringApplicationBuilder
 
 			configure(SpringApplicationBuilder application) {
 
 		return application.sources(Cs5200Spring2018SharmaApplication.class);
-
 	}
 
 	public static void main(String[] args) {
