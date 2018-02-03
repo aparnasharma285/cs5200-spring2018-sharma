@@ -5,24 +5,24 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name="hello")
+@Entity(name = "hello")
 public class HelloObject {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
+
 	private int id;
 	private String message;
-	
-	public int getId() {
-		  return id;
 
-		 }
-	
+	public int getId() {
+		return id;
+
+	}
+
 	public void setId(int id) {
 
-		  this.id = id;
+		this.id = id;
 
-		 }
+	}
 
 	public String getMessage() {
 		return message;
